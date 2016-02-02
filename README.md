@@ -1,4 +1,4 @@
 # HTCondor-EnergyPlus
-Use HTCondor to run EnergyPlus simulations
+Use HTCondor to run *a whole bunch* of EnergyPlus simulations
 
 *Under development*
