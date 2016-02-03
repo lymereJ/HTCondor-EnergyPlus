@@ -1,0 +1,5 @@
+## HTCondor Job; Running EnergyPlus; Batch file: SingleZone_SanFransisco.bat
+
+UNIVERSE = Vanilla 
+EXECUTABLE = SingleZone_SanFransisco.bat
+QUEUE

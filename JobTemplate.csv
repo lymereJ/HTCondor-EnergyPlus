@@ -1,0 +1,4 @@
+Batch,EnergyPlusVersionPath,IDF,WeatherFile
+SingleZone_SanFransisco,C:\EnergyPlusV8-3-0\energyplus.exe,zob1,zob1
+SingleZone_SanFransisco,C:\EnergyPlusV8-3-0\energyplus.exe,zob2,zob2
+TwoZone_Chicago,C:\EnergyPlusV8-3-0\energyplus.exe,zob3,zob3
