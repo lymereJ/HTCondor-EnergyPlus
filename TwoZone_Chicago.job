@@ -1,5 +1,0 @@
-## HTCondor Job; Running EnergyPlus; Batch file: TwoZone_Chicago.bat
-
-UNIVERSE = Vanilla 
-EXECUTABLE = TwoZone_Chicago.bat
-QUEUE
