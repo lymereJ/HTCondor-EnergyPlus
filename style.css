@@ -17,15 +17,9 @@ QPushButton{
     background: #526F35;
     color: #ffffff;
     padding: 10px 10px 10px 10px;
-
     border-radius: 6px;
 }
 
 QPushButton:hover {
   background: #78AB46;
-}
-
-/*Use the # and the name of the variable to access to a specific the Control*/
-#_firstnameField QLineEdit{
-    color:red;
 }
