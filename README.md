@@ -8,7 +8,7 @@ The program works but some more development is planned. Here's a few ideas:
 + Using the HTCondor Python bindings instead of having to create a *.job file for each individual job
 + Add a visualation tab to be able to show the results of the `condor_status` and `condor_q` command
 
-## Instruction
+## Instructions
 1. Create a csv file similar to JobTemplate.csv present on the repo. The headers are needed
 2. Run HTCondor-EnergyPlus.py
 3. Select your csv file
