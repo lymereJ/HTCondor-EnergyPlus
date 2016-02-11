@@ -14,7 +14,7 @@ QLineEdit{
 }
 
 QPushButton{
-    background: #3498db;
+    background: #526F35;
     color: #ffffff;
     padding: 10px 10px 10px 10px;
 
@@ -22,7 +22,7 @@ QPushButton{
 }
 
 QPushButton:hover {
-  background: #3cb0fd;
+  background: #78AB46;
 }
 
 /*Use the # and the name of the variable to access to a specific the Control*/

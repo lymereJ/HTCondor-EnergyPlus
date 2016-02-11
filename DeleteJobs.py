@@ -1,15 +1,16 @@
 #-------------------------------------------------
-#--- Submit Batch Files to HTCondor
+#--- Delete All Job Files
 #-------------------------------------------------
 
 import os
-import subprocess
 
-def SubmitJobs():
+def DeleteJobs():
 	ActivePath = os.path.dirname(os.path.abspath(__file__))
 	for filename in os.listdir(ActivePath):
 		if filename.find(".job") > 0:
-			subprocess.call(["condor_submit",filename])
-
+			os.remove(filename)
+		elif filename.find(".bat") > 0:
+			os.remove(filename)
+			
 if __name__ == '__main__':
-	SubmitJobs()
+	DeleteJobs()
